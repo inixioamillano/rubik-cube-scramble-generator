@@ -22,6 +22,16 @@
 npm install --save rubik-cube-scramble-generator
 ```
 
+## Usage
+
+```javascript
+const scrambler = require('rubik-cube-scramble-generator');
+scrambler.generate(); //Returns an array of 10 elements
+// Example: ['F', 'R2', 'R', 'U', 'L', 'D2', 'U', 'R', 'L', 'U2']
+scrambler.generate(3); //Returns an array of 10 elements
+// Example: ['R', 'U', 'L']
+```
+
 ## Author
 
 👤 **Inixio Amillano Casteig**

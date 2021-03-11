@@ -1,6 +1,6 @@
 {
     "name": "rubik-cube-scramble-generator",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "A simple scramble generator for 3x3x3 Rubik's cubes",
     "homepage": "https://github.com/inixioamillano/rubik-cube-scramble-generator#readme",
     "author": "Inixio Amillano Casteig",
