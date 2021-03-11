@@ -8,11 +8,7 @@ exports.generate = (length = 10) => {
     for (i = 0; i < length; i++) {
         const move = moves[Math.floor(Math.random() * moves.length)];
         const modifier = modifiers[Math.floor(Math.random() * modifiers.length)];
-        if (modifier === '2') {
-            scramble.push(`${modifier}${move}`);
-        } else {
-            scramble.push(`${move}${modifier}`);
-        }
+        scramble.push(`${move}${modifier}`);
     }
     return scramble;
 }
