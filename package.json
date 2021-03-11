@@ -1,4 +1,19 @@
 {
     "name": "rubik-cube-scramble-generator",
-    "version": "1.0.13"
+    "version": "1.0.14",
+    "description": "A simple scramble generator for 3x3x3 Rubik's cubes",
+    "homepage": "https://github.com/inixioamillano/rubik-cube-scramble-generator#readme",
+    "author": "Inixio Amillano Casteig",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inixioamillano/rubik-cube-scramble-generator"
+    },
+    "bugs": {
+        "url": "https://github.com/inixioamillano/rubik-cube-scramble-generator/issues"
+    },
+    "engines": {
+        "npm": ">=5.5.0",
+        "node": ">=9.3.0"
+    }
 }
